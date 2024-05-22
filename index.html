@@ -1,106 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./imgs/image_2021-10-13_12-48-13 1.svg" />
+    <title>TLA</title>
+  </head>
+  <body>
     <header>
-        <nav class="nav ">
-            <div class="nav__logo">
-                <a href="index.html"><img src="./imgs/image_2021-10-13_12-48-13 1.svg" alt="img"></a>
+      <nav class="nav">
+        <div class="nav__logo">
+          <a href="index.html"
+            ><img src="./imgs/image_2021-10-13_12-48-13 1.svg" alt="img"
+          /></a>
+        </div>
+
+        <ul>
+          <button class="dropbtn">
+            About
+            <span><i class="fa-solid fa-chevron-down"></i></span>
+            <div class="dropdown__content">
+              <a href="#">About TLA</a>
+              <a href="#">Contacts</a>
+              <a href="#">Leaderships</a>
             </div>
+          </button>
 
-            <ul>
-                <li><a href="#">About <span><i class="fa-solid fa-chevron-down"></i></span></a></li>
-                <li><a href="#">Advocacy</a></li>
-                <li><a href="#">Advocacy</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Foundation</a></li>
-                <li><a href="#">Memberships <span><i class="fa-solid fa-chevron-down"></i></span></a></li>
-                <li><a href="#">News</a></li>
-            </ul>
+          <li><a href="#">Advocacy</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Foundation</a></li>
 
-
-            <div class="nav__right">
-                <div>
-                    <img src="./imgs/lang.svg" alt="img">
-                </div>
-
-                <button class="nav__right__btn">Log in</button>
+          <button class="dropbtn">
+            Memberships
+            <span><i class="fa-solid fa-chevron-down"></i></span>
+            <div class="dropdown__content">
+              <a href="#">Benefits</a>
+              <a href="#">Memberships</a>
             </div>
-            
-        </nav>
+          </button>
+
+          <li><a href="#">News</a></li>
+        </ul>
+
+        <div class="nav__right">
+          <div>
+            <img src="./imgs/lang.svg" alt="img" />
+          </div>
+
+          <button class="nav__right__btn">Log in</button>
+        </div>
+      </nav>
     </header>
 
-
     <main>
-        <div class="main__hero ">
-            <div class="hero__top">
-                <div class="hero__top__heading">
-                    <h1>Choose your company type</h1>
-                </div>
-                <div class="hero__top__items">
-                    <div class="hero__top__item">
-                        <img src="./imgs/hero1.svg" alt="img">
-                        <p>Trucking company</p>
-                        <button class="hero__top__btn">Continue</button>
-                    </div>
-
-                    <div class="hero__top__item">
-                        <img src="./imgs/engine-oil (1) 1.svg" alt="img">
-                        <p>Motor oils</p>
-                        <button class="hero__top__btn">Continue</button>
-                    </div>
-
-                    <div class="hero__top__item">
-                        <img src="./imgs/Vector.svg" alt="img">
-                        <p>Gas Stations</p>
-                        <button class="hero__top__btn">Continue</button>
-                    </div>
-
-                    <div class="hero__top__item">
-                        <img src="./imgs/tools.svg" alt="img">
-                        <p>Service center</p>
-                        <button class="hero__top__btn">Continue</button>
-                    </div>
-                </div>
+      <div class="main__hero">
+        <div class="hero__top">
+          <div class="hero__top__heading">
+            <h1>Choose your company type</h1>
+          </div>
+          <div class="hero__top__items">
+            <div class="hero__top__item">
+              <img src="./imgs/hero1.svg" alt="img" />
+              <p>Trucking company</p>
+              <button class="hero__top__btn">Continue</button>
             </div>
 
-            <div class="hero__bottom">
-                <div class="hero__bottom__heading">
-                    <h1>Benefits for Trucking companies</h1>
-                </div>
-                <div class="hero__bottom__infos">
-                    <div class="hero__bottom__left">
-                        <div class="hero__bottom__left-first">
-                            <p class="first__top__p">INDUSTRY EXPERTS AND LEGISLATIVE REPRESENTATION</p>
-                            <p class="second__top__p">TLA advances the interests of trucking companies operating in Texas through regulatory and legislative advocacy at the local, state and national levels. TLA TruckPAC is an essential tool and staff has decades of advocacy prowess—our experts are just a phone call away.</p>
-                        </div>
-
-                        <div class="hero__bottom__left-first">
-                            <p class="first__top__p">INDUSTRY EXPERTS AND LEGISLATIVE REPRESENTATION</p>
-                            <p class="second__top__p">TLA advances the interests of trucking companies operating in Texas through regulatory and legislative advocacy at the local, state and national levels. TLA TruckPAC is an essential tool and staff has decades of advocacy prowess—our experts are just a phone call away.</p>
-                        </div>
-                    </div>
-
-                    <div class="hero__bottom__right ">
-                        <div class="hero__bottom__right__first">
-                            <p class="first__bottom__p">EXCLUSIVE MEMBER ACCESS</p>
-                            <p class="second__bottom__p">TLA members enjoy exclusive online access—register for events, or search for members by name, city or type of business. TLA membership offers special member rates for safety and maintenance conferences, webinars and classes, custom log books and Motor Vehicle Reports (MVRs). Requests for MVRs for Usa-licensed drivers received before 1:00 pm can be processed and faxed or emailed by 5:00 pm the same day.</p>
-                        </div>
-
-                        <div class="hero__bottom__right__secon">
-                            <p class="first__bottom__p">EXCLUSIVE MEMBER ACCESS</p>
-                            <p class="second__bottom__p">TLA members enjoy exclusive online access—register for events, or search for members by name, city or type of business. TLA membership offers special member rates for safety and maintenance conferences, webinars and classes, custom log books and Motor Vehicle Reports (MVRs). Requests for MVRs for Usa-licensed drivers received before 1:00 pm can be processed and faxed or emailed by 5:00 pm the same day.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="hero__top__item">
+              <img src="./imgs/engine-oil (1) 1.svg" alt="img" />
+              <p>Motor oils</p>
+              <button class="hero__top__btn">Continue</button>
             </div>
+
+            <div class="hero__top__item">
+              <img src="./imgs/Vector.svg" alt="img" />
+              <p>Gas Stations</p>
+              <button class="hero__top__btn">Continue</button>
+            </div>
+
+            <div class="hero__top__item">
+              <img src="./imgs/tools.svg" alt="img" />
+              <p>Service center</p>
+              <button class="hero__top__btn">Continue</button>
+            </div>
+          </div>
         </div>
+
+        <div class="hero__bottom">
+          <div class="hero__bottom__heading">
+            <h1>Benefits for Trucking companies</h1>
+          </div>
+          <div class="hero__bottom__infos">
+            <div class="hero__bottom__left">
+              <div class="hero__bottom__left-first">
+                <p class="first__top__p">
+                  INDUSTRY EXPERTS AND LEGISLATIVE REPRESENTATION
+                </p>
+                <p class="second__top__p">
+                  TLA advances the interests of trucking companies operating in
+                  Texas through regulatory and legislative advocacy at the
+                  local, state and national levels. TLA TruckPAC is an essential
+                  tool and staff has decades of advocacy prowess—our experts are
+                  just a phone call away.
+                </p>
+              </div>
+
+              <div class="hero__bottom__left-first">
+                <p class="first__top__p">
+                  INDUSTRY EXPERTS AND LEGISLATIVE REPRESENTATION
+                </p>
+                <p class="second__top__p">
+                  TLA advances the interests of trucking companies operating in
+                  Texas through regulatory and legislative advocacy at the
+                  local, state and national levels. TLA TruckPAC is an essential
+                  tool and staff has decades of advocacy prowess—our experts are
+                  just a phone call away.
+                </p>
+              </div>
+            </div>
+
+            <div class="hero__bottom__right">
+              <div class="hero__bottom__right__first">
+                <p class="first__bottom__p">EXCLUSIVE MEMBER ACCESS</p>
+                <p class="second__bottom__p">
+                  TLA members enjoy exclusive online access—register for events,
+                  or search for members by name, city or type of business. TLA
+                  membership offers special member rates for safety and
+                  maintenance conferences, webinars and classes, custom log
+                  books and Motor Vehicle Reports (MVRs). Requests for MVRs for
+                  Usa-licensed drivers received before 1:00 pm can be processed
+                  and faxed or emailed by 5:00 pm the same day.
+                </p>
+              </div>
+
+              <div class="hero__bottom__right__secon">
+                <p class="first__bottom__p">EXCLUSIVE MEMBER ACCESS</p>
+                <p class="second__bottom__p">
+                  TLA members enjoy exclusive online access—register for events,
+                  or search for members by name, city or type of business. TLA
+                  membership offers special member rates for safety and
+                  maintenance conferences, webinars and classes, custom log
+                  books and Motor Vehicle Reports (MVRs). Requests for MVRs for
+                  Usa-licensed drivers received before 1:00 pm can be processed
+                  and faxed or emailed by 5:00 pm the same day.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-</body>
+
+    <footer>
+      <div class="footer__box">
+        <div class="footer__box__top">
+          <h1>Join us in social networks</h1>
+          <img class="footer__img" src="./imgs/footer-social.svg" alt="img" />
+        </div>
+
+        <div class="footer__box__middle">
+          <div class="box__middle__inner">
+            <a class="box__link__above" href="#">ABOUT COMPANY</a>
+            <a class="box__link__below" href="#">About us</a>
+            <a class="box__link__below" href="#">Leaderships</a>
+            <a class="box__link__below" href="#">Partners</a>
+          </div>
+          <div class="box__middle__inner" href="#">
+            <a class="box__link__above" href="#">INFORMATIONS</a>
+            <a class="box__link__below" href="#">News</a>
+            <a class="box__link__below" href="#">Events</a>
+            <a class="box__link__below" href="#">Advocacy</a>
+          </div>
+          <div class="box__middle__inner" href="#">
+            <a class="box__link__above" href="#">OTHER LINKS</a>
+            <a class="box__link__below" href="#">Foundations</a>
+            <a class="box__link__below" href="#">Education</a>
+            <a class="box__link__below" href="#">Products</a>
+          </div>
+          <div class="box__middle__inner">
+            <a class="box__link__above" href="#">FOR MEMBERS</a>
+            <a class="box__link__below" href="#">Memberships</a>
+            <a class="box__link__below" href="#">Benefits</a>
+            <a class="box__link__below" href="#">Carriers</a>
+          </div>
+          <div class="box__tva">
+            <p>Join TLA</p>
+          </div>
+        </div>
+
+        <div class="footer__box__bottom">
+          <button>LOGO</button>
+          <img src="./imgs/footer-napa.svg" alt="img" />
+          <img src="./imgs/footer-copy.svg" alt="img" />
+        </div>
+      </div>
+
+      <div class="footer__bottom__connections">
+        <img src="./imgs/connections.svg" alt="" />
+      </div>
+    </footer>
+  </body>
 </html>
