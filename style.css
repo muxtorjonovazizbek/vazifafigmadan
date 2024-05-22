@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(./Lato/Lato-Regular.ttf);
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #202E3D;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 75px; 
+}
+
+
+.nav__logo {
+    width: 117px;
+    height: 68px;
+}
+
+.nav__logo a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 80px;
+}
+
+ul li a {
+    color: #FFFFFF;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+a:hover {
+    color: #46DBBF;
+}
+
+.nav__right {
+    display: flex;
+    padding-left: 217px;
+    align-items: center;    
+    gap: 76px;
+}
+
+.nav__right img {
+    width: 72px;
+    height: 24px;
+}
+
+.nav__right__btn {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    border: 2px solid;
+    padding: 10px 25px;
+    border-color: #FF9B52;
+    background: inherit;
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 21.6px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.nav__right__btn:hover {
+    background-color: #FF9B52;
+}
+
+/* section main */
+
+
+main {
+    background-color: #202E3D;
+}
+.main__hero {
+    padding-top: 96px;
+    padding-left: 65px;
+}
+
+.hero__top__heading h1{
+    font-family: Lato;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 52.8px;
+    color: #FFFFFF;
+}
+
+.hero__top__items {
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.hero__top__item {
+    width: 320px;
+    height: 180px;
+    border-radius: 24px;
+    border: 2px solid transparent;
+    background-color: #2A3C4E;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+.hero__top__item:hover {
+    height: 268px;
+    border-color: #46DBBF;
+}
+
+.hero__top__item img {
+    width: 122px;
+    height: 65px;
+    color: #46DBBF;
+    padding-top: 10px;
+}
+
+.hero__top__item p {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 31px;  
+    text-align: center;
+    color: white;
+}
+
+.hero__top__btn {
+    display: none;
+    width: 250px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: #46DBBF;
+    border: none;
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #202E3D;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.hero__top__item:hover .hero__top__btn {
+    display: block;
+} 
+
+
+.hero__bottom {
+    padding-top: 170px;
+}
+.hero__bottom__heading h1 {
+    font-family: Lato;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 52.8px;
+    color: #FFFFFF;
+}
+
+.hero__bottom__infos {
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.hero__bottom__left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero__bottom__left-first {
+    width: 690px;
+    height: 234px;
+    border-radius: 24px;
+    background-color: #2A3C4E;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.first__top__p, .first__bottom__p {
+    width: 497px;
+    height: 62px;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: #46DBBF;
+}
+
+.second__top__p, .second__bottom__p {
+    width: 630px;
+    height: 92px;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+}
+
+.hero__bottom__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.hero__bottom__right__first, .hero__bottom__right__secon{
+   background-color: #2A3C4E; 
+   padding: 30px;
+   display: flex;
+   border-radius: 24px;
+   flex-direction: column;
+}
+
+
+.hero__bottom__right__first {
+    width: 690px;
+    height: 249px;
+}
+
+.hero__bottom__right__secon {
+    width: 690px;
+    height: 295px;
+}
+
+
+
+
+
+
+
+
